@@ -17,12 +17,9 @@ export function Header() {
       px="6"
       align="center"
     > 
-     <Logo />
+      <Logo />
       <SearchBox />
-      <Flex
-        align="center"
-        ml="auto"
-      >
+      <Flex align="center" ml="auto">
         <NotificationsNav />
         <Profile />
       </Flex>

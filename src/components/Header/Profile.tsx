@@ -3,7 +3,7 @@ import { Flex, Text, Box, Avatar } from '@chakra-ui/react'
 export function Profile() {
   return (
     <Flex
-          align="center"
+      align="center"
     >
       <Box mr="4" textAlign="right">
         <Text>Rangel Netto</Text>
