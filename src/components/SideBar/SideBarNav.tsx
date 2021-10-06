@@ -12,12 +12,12 @@ export function SiderBarNav() {
   return (
     <Stack spacing="12" align="flex-start">
       <NavSection title="GERAL">
-        <NavLink icon={RiDashboard2Line}>Dashboard</NavLink>
-        <NavLink icon={RiContactsBookLine}>Usuários</NavLink>
+        <NavLink icon={RiDashboard2Line} href="/dashboard">Dashboard</NavLink>
+        <NavLink icon={RiContactsBookLine} href="/users">Usuários</NavLink>
       </NavSection>
       <NavSection title="AUTOMAÇÃO">
-        <NavLink icon={RiInputMethodLine}>Formulários</NavLink>
-        <NavLink icon={RiGitMergeLine}>Automação</NavLink>
+        <NavLink icon={RiInputMethodLine} href="/forms">Formulários</NavLink>
+        <NavLink icon={RiGitMergeLine} href="/automation">Automação</NavLink>
       </NavSection>
     </Stack>
   )
